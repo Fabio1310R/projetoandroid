@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Exer';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #87e4b6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom , #29A261,#033C1B);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+header h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #33a868;
+    border-radius: 8px;
+    color: #033D1C;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.5s;
+}
+a ,ul ,li , p{
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+}
+
+a{
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
+    box-shadow:  3px 3px 3px rgba(0, 0, 0, 0.349);
+    
+}
+nav a{
+    
+    padding:10px;
+    font-weight: bold;
+}
+nav > ul {
+    margin-top: 10px;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+ h2 , h3 {
+    font-family: 'Exer';
+}
+
+.nomes{
+    background-color: #4cd48c;
+    color: #032712;
+    font-weight: bold;
+}
+
+.h3{
+    background-image: linear-gradient(to right, rgb(96, 204, 96),rgb(255, 255, 255) );
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+.fotos{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+#video{
+    margin: auto;
+    display: flex;
+    background-color: #043D1D;
+    width: 100%;
+}
+
+
+.menu > li {
+    margin: 0px 5px 0px 3px ;
+}
+ 
+
+#lista{
+   background-color: #29A261;
+   padding: 0px 10px 10px 10px;
+   border-radius: 10px;
+   box-shadow: 3px 3px 8px black;
+}
+
+#lis{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: green;
+    
+    
+}
+
+aside ul{
+    columns: 2;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+
+
+
+#foot{
+    background-color: #033C1B;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
